@@ -85,23 +85,23 @@ public class Main
         System.out.println("Comando Invalido");
     }
     /*
-    else if (type.equals("CREATE-PAYLOAD"))
+    else if (type.equals("CRIAR-PAYLOAD"))
     {
       if(tokens[1].equals("C"))
       {
-         payloads =  payloadFactory(tokens[1],tokens[2],null,null,null);
+         payloads.payloadFactory(tokens[1],tokens[2],null,null,null);
       }
       if (tokens[1].equals("P"))
       {
-         payloads =  payloadFactory(tokens[1],tokens[2],tokens[3],tokens[4],null);
+         payloads.payloadFactory(tokens[1],tokens[2],tokens[3],tokens[4],null);
       }
       if (tokens[1].equals("E"))
       {
-         payloads =  payloadFactory(tokens[1],tokens[2],tokens[3],tokens[4],tokens[5]);
+         payloads.payloadFactory(tokens[1],tokens[2],tokens[3],tokens[4],tokens[5]);
       }
       
     }
-    else if (type.equals("GET-PAYLOAD"))
+    else if (type.equals("CON-PAYLOAD"))
     {
       
     }
