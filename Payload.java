@@ -1,5 +1,7 @@
 package rdc.aeroporto;
 
+import rdc.aeroporto.exceptions.InvalidInputException;
+
 public abstract class Payload extends Item {
   
   private double weight;

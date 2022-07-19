@@ -1,5 +1,6 @@
 package rdc.aeroporto;
 
+import rdc.aeroporto.exceptions.InvalidBookingException;
 import java.util.ArrayList;
 public abstract class Flight extends Item
 {

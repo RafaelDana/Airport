@@ -1,5 +1,7 @@
 package rdc.aeroporto;
 
+import rdc.aeroporto.exceptions.InvalidBookingException;
+
 public class Commercial extends Flight
 {
   public Commercial()

@@ -1,8 +1,10 @@
 package rdc.aeroporto;
 
 public abstract class Item {
- protected int id;
+ public int id;
  private static int count;
+ 
+ 
  public Item() 
  {
    count++;
